@@ -1,7 +1,7 @@
 -- Warning: This hub only works on WTRB
 if game.PlaceId == 2897155393 then
 
-local Rayfield = loadstring(game:HttpGet('https://[Log in to view URL]'))()
+local Rayfield = loadstring(game:HttpGet('sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Astro Hub",
    LoadingTitle = "Astro Hub",
