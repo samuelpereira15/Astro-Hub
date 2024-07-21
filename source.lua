@@ -8,7 +8,7 @@ local Window = Rayfield:CreateWindow({
    LoadingSubtitle = "by zeq.5265",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = AstroHub, -- Create a custom folder for your hub/game
       FileName = "Astro Hub"
    },
    Discord = {
@@ -27,5 +27,6 @@ local Window = Rayfield:CreateWindow({
       Key = {"https://pastebin.com/raw/PCwp84tH"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github ) or simple strings ("hello",) or simple strings ("hello","key22")
    }
 })
+  Rayfield:LoadConfiguration()
 else game.Players.LocalPlayer:Kick("Not Supported!")
 end
