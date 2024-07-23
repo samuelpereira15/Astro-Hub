@@ -16,7 +16,6 @@ _G.KeyInput = "string"
 
 function MakeScriptHub()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelpereira15/Astro-Hub/main/source.lua"))()
-
 end
 
 
