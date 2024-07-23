@@ -15,7 +15,7 @@ _G.Key = "subscribe1" -- You Put Your Key Here
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelpereira15/Astro-Hub/main/source.lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelpereira15/Astro-Hub/main/source.lua")
 
 end
 
