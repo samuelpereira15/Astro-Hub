@@ -2,7 +2,7 @@
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "KeySystem", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "Key System",
